@@ -10,5 +10,5 @@ docker run --rm -v ./java_workspace/:/usr/src/ -w /usr/src/ openjdk:11 javac sig
 ## Running signApp
 
 ```
-docker run --rm -v ./java_workspace/:/usr/src/ -w /usr/src/ openjdk:11 java signapp.SignApp
+docker run --rm -v ./java_workspace/:/usr/src/ -w /usr/src/ openjdk:11 java signapp.SignApp <APP_ID> <TENANT_ID> <TENANT_SECRET>
 ```
